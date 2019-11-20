@@ -25,7 +25,7 @@ Note that a discount is calculated as a percentage off of the total cash registe
 ```ruby
 class Person
 
-  attr_accessor :age
+  attr_accessor :age :cash_register
 
   def initialize(age = 0)
     @age = age 
